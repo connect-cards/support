@@ -1,0 +1,77 @@
+/* ===== Variables ===== */
+$font-body: 'EB Garamond', serif;
+$text-color: #272626;
+$bg-color: #FFFDF7;
+$hyperlink-color: #2E68D4;
+
+/* ===== Font size ===== */
+html {
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* ===== Base ===== */
+body {
+    font-family: $font-body;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: $text-color;
+    background-color: $bg-color;
+    margin: 0;
+    padding: 100 20;
+}
+
+/* ===== Title ===== */
+h1,
+.site-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+/* ===== Heading 1 ===== */
+h2 {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+/* ===== Heading 2 ===== */
+h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* ===== Text ===== */
+p {
+    margin-bottom: 1rem;
+}
+
+/* ===== Links ===== */
+a {
+    color: $hyperlink-color;
+    text-decoration: underline;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+/* ===== Layout ===== */
+.main-content {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 40px 40px;
+    box-sizing: border-box;
+}
+
+footer {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
