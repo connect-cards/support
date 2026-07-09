@@ -15,8 +15,8 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.6;
-  color: #272626;
-  background-color: #FFFDF7;
+  color: #262320;
+  background-color: #FFFDF8;
   margin: 0;
   padding: 100 20;
 }
@@ -47,7 +47,7 @@ p {
 
 /* ===== Links ===== */
 a {
-  color: #2E68D4;
+  color: #2F6FE8;
   text-decoration: underline;
 }
 a:hover {
